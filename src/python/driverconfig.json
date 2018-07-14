@@ -1,8 +1,8 @@
 {
       "bucket": "big-data-benchmark",
       "prefix": "pavlo/text/1node/uservisits/",
-      "jobBucket": "ENTER YOUR BUCKET HERE",
-      "region": "us-east-1",
+      "jobBucket": "mrtest-kchen",
+      "region": "us-west-1",
       "lambdaMemory": 1536,
       "concurrentLambdas": 1000,
       "lambda_read_timeout": 300,
@@ -22,4 +22,4 @@
             "handler": "reducerCoordinator.lambda_handler",
             "zip": "reducerCoordinator.zip"
         }
-} 
+}
